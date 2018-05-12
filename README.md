@@ -10,3 +10,7 @@ mes debuts avec la bananapi bit
 
 1) aller sur https://blocklypro.webduino.io/dashboard
 2) creer un nouveau fichier
+
+## blocky pour bpi bit
+
+1) aller sur https://bit.webduino.io/blockly/#8MAj7QPQ2b
