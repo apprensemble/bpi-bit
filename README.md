@@ -33,3 +33,6 @@ esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_mode dio --flas
 7) copier le device id et l'entrer dans https://bit.webduino.io/blockly
 
    Tout ce que j'ai reussi à faire en mode block c'est programmer la matrice. C'est sympa mais il manque, les boutons, le buzzer, l'acceleromettre etc...
+   
+   PS le firmware est là : https://github.com/yelvlab/BPI-BIT
+   
