@@ -1,6 +1,18 @@
 # bpi-bit
 mes debuts avec la bananapi bit
 
+## recap
+
+Depuis que j'ai le BPI-bit cad depuis que j'ai cree ce depot. J'ai testé les programme avec platformio, ça fonctionne.
+J'ai testé blocky(webduino) mais ce n'est pas stable, l'ancienne version ne permet pas de bien exploité le potentiel de la carte et la nouvelle version plante au bout de qq minutes.
+Des échanges sont en cours avec le développeur. Il dit ne pas être capable de reproduire le comportement de mes cartes :
+
+[suivre la conversation](http://forum.banana-pi.org/t/how-to-bpi-bit-webduino-firmware-burning/5477)
+
+Je vais devoir développer en C ou en Python. Je n'ai pas encore testé le firmware python, je prefere ne pas perdre plus de temps et faire du C.
+
+
+
 ## arduino ide
 
 1) Dans les preferences ajouter https://git.oschina.net/dfrobot/FireBeetle-ESP32/raw/master/package_esp32_index.json
@@ -35,4 +47,3 @@ esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_mode dio --flas
    Tout ce que j'ai reussi à faire en mode block c'est programmer la matrice. C'est sympa mais il manque, les boutons, le buzzer, l'accelerometre etc...
    
    PS le firmware est là : https://github.com/yelvlab/BPI-BIT
-   
