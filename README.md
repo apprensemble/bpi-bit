@@ -51,3 +51,5 @@ esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_mode dio --flas
 25/08/2018 enfin un firmware webduino qui fonctionne.
 
 https://bit.webduino.io/blockly/#qZzj17wxWr
+
+tests : https://bit.webduino.io/blockly/#8WEk1AWnBX
